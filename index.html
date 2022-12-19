@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pesquisa</title>
+    </head>
+    <body>
+        <main>
+            <h1>Como foi sua experiência com a DropLock?</h1>
+            <p>Nos ajude a melhorar respondendo algumas perguntas.</p>
+            <form action="#" method="get">
+                <div class="input text">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div class="input text">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="input text">
+                    <label for="idade">Idade <span>(opcional)</span></label>
+                    <input type="number" name="idade" id="idade">
+                </div>
+
+                <div class="input select">
+                    <label for="actualRole">Qual opção melhor descreve sua função atual?</label>
+                    <select name="actualRole" id="actualRole">
+                        <option value="" selected disabled>Selecine sua função atual</option>
+                        <option value="student">Estudante</option>
+                        <option value="fullTimeJob">Trabalho em tempo integral</option>
+                        <option value="fullTimeLeaner">Aprendo na maior parte do tempo</option>
+                        <option value="preferNotToSay">Prefiro não dizer</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+
+                <div class="input radio">
+                    <p>Você recomendaria a DropLock para um amigo?</p>
+                    <p class="radio">
+                        <input type="radio" name="friendRecomendation" id="definitely" checked>
+                        <label for="definitely">Denifitivamente</label>
+                    </p>
+
+                    <p class="radio">
+                        <input type="radio" name="friendRecomendation" id="maybe">
+                        <label for="maybe">Talvez</label>
+                    </p>
+
+                    <p class="radio">
+                        <input type="radio" name="friendRecomendation" id="notSure">
+                        <label for="notSure">Não tenho certeza</label>
+                    </p>
+                </div>
+
+                <div class="input select">
+                    <label for="featureOpnion">Qual sua característica favorita da DropLock?</label>
+                    <select name="featureOpnion" id="featureOpnio">
+                        <option value="" selected disabled>Selecione uma opnião</option>
+                        <option value="challenges">Desafios</option>
+                        <option value="projects">Projetos</option>
+                        <option value="community">Comunidade</option>
+                        <option value="openSource">Open-source</option>
+                    </select>
+                </div>
+
+                <div class="input checkbox">
+                    <p>O que você acha que poderia ser melhor?<span>(Marque os que se  aplicam)</span></p>
+                    <p>
+                        <input type="checkbox" name="frontProjects" id="frontProjects">
+                        <label for="frontProjects">Projetos Front-end</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="backProjects" id="backProjects">
+                        <label for="backProjects">Projetos Back-end</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="dataVisualization" id="dataVisualization">
+                        <label for="dataVisualization">Visualização de dados</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="challenges" id="challenges">
+                        <label for="challenges">Desafios</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="openSrcCommunity" id="openSrcCommunity">
+                        <label for="openSrcCommunity">Comunidade Open-source</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="gitterRooms" id="gitterRooms">
+                        <label for="gitterRooms">Salas de ajuda no Gitter</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="videos" id="videos">
+                        <label for="videos">Vídeos</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="meetup" id="meetup">
+                        <label for="meetup">Encontros</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="wiki" id="wiki">
+                        <label for="wiki">Wiki</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="forum" id="forum">
+                        <label for="forum">Fórum</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="addCourses" id="addCourses">
+                        <label for="addCourses">Cursos adicionais</label>
+                    </p>
+                </div>                
+
+                <div class="input text">
+                    <p><label for="comment">Algum comentário ou sugestão?</label></p>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>  
+        </main>
+    </body>
+</html>
