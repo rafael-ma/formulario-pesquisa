@@ -4,30 +4,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylePhone.css" >
+        <link rel="stylesheet" href="css/styleTablet.css">
+        <link rel="stylesheet" href="css/styleDesktop.css">
         <title>Pesquisa</title>
     </head>
     <body>
         <main>
-            <h1>Como foi sua experiência com a DropLock?</h1>
-            <p>Nos ajude a melhorar respondendo algumas perguntas.</p>
+            <div class="head">
+                <h1>Como foi sua experiência com a DropLock?</h1>
+                <p>Nos ajude a melhorar respondendo algumas perguntas.</p>
+            </div>
             <form action="#" method="get">
                 <div class="input text">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
+                    <p><label for="nome">Nome</label></p>
+                    <input type="text" name="nome" id="nome" placeholder="Escreva seu nome">
                 </div>
 
                 <div class="input text">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
+                    <p><label for="email">Email</label></p>
+                    <input type="text" name="email" id="email" placeholder="Escreva seu Email">
                 </div>
 
                 <div class="input text">
-                    <label for="idade">Idade <span>(opcional)</span></label>
-                    <input type="number" name="idade" id="idade">
+                    <p><label for="idade">Idade <span>(opcional)</span></label></p>
+                    <input type="number" name="idade" id="idade" placeholder="Idade">
                 </div>
 
                 <div class="input select">
-                    <label for="actualRole">Qual opção melhor descreve sua função atual?</label>
+                    <p><label for="actualRole">Qual opção melhor descreve sua função atual?</label></p>
                     <select name="actualRole" id="actualRole">
                         <option value="" selected disabled>Selecine sua função atual</option>
                         <option value="student">Estudante</option>
@@ -57,7 +64,7 @@
                 </div>
 
                 <div class="input select">
-                    <label for="featureOpnion">Qual sua característica favorita da DropLock?</label>
+                    <p><label for="featureOpnion">Qual sua característica favorita da DropLock?</label></p>
                     <select name="featureOpnion" id="featureOpnio">
                         <option value="" selected disabled>Selecione uma opnião</option>
                         <option value="challenges">Desafios</option>
@@ -69,57 +76,57 @@
 
                 <div class="input checkbox">
                     <p>O que você acha que poderia ser melhor?<span>(Marque os que se  aplicam)</span></p>
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="frontProjects" id="frontProjects">
                         <label for="frontProjects">Projetos Front-end</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="backProjects" id="backProjects">
                         <label for="backProjects">Projetos Back-end</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="dataVisualization" id="dataVisualization">
                         <label for="dataVisualization">Visualização de dados</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="challenges" id="challenges">
                         <label for="challenges">Desafios</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="openSrcCommunity" id="openSrcCommunity">
                         <label for="openSrcCommunity">Comunidade Open-source</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="gitterRooms" id="gitterRooms">
                         <label for="gitterRooms">Salas de ajuda no Gitter</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="videos" id="videos">
                         <label for="videos">Vídeos</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="meetup" id="meetup">
                         <label for="meetup">Encontros</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="wiki" id="wiki">
                         <label for="wiki">Wiki</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="forum" id="forum">
                         <label for="forum">Fórum</label>
                     </p>
 
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="addCourses" id="addCourses">
                         <label for="addCourses">Cursos adicionais</label>
                     </p>
@@ -127,10 +134,10 @@
 
                 <div class="input text">
                     <p><label for="comment">Algum comentário ou sugestão?</label></p>
-                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Escrea seu comentário aqui..."></textarea>
                 </div>
 
-                <button type="submit">Enviar</button>
+                <div class="input"><button type="submit">Enviar</button></div>
             </form>  
         </main>
     </body>

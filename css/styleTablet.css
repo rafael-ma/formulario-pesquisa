@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 480px){
+    body {
+        color: white;
+        background: url(../images/bgTablet.jpg) fixed center;
+        background-size: cover;
+    }
+}

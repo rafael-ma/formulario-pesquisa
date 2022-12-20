@@ -1,0 +1,5 @@
+Media Query
+
+480 Phone
+768 Tablet
+1200 Desktop
